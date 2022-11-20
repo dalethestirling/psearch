@@ -6,16 +6,16 @@ Since the PIP search endpoint has been permanently deprecated and disabled due t
 
 I am too lazy to switch to the browser to search for Python packages. So I spent time writing this script to search packages from the command line.
 
-###Install
+### Install
 Install prerequisites using the `requirements.txt` file.
 
 `pip install -r requirements.txt`
  
 
-###Usage
+### Usage
 `./psearch.py [-h] [-q|--quiet] package`
 
-#####Options
+##### Options
 `-h, --help`: Print usage information
 
 `-q, --quiet`: Print results without headers
